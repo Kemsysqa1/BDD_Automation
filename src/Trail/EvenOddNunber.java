@@ -9,6 +9,9 @@ public class EvenOddNunber {
 
 				System.out.println(i);
 			}
+			else {
+				System.out.println("EVEN Number found ");
+			}
 		}
 	}
 
