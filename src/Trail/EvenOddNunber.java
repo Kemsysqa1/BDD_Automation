@@ -7,7 +7,7 @@ public class EvenOddNunber {
 
 			if (i % 2 != 0) {
 
-				System.out.println(i);
+				System.out.println("Odd Numbers: " + i);
 			}
 		}
 	}
