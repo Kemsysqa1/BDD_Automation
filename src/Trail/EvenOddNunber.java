@@ -8,9 +8,8 @@ public class EvenOddNunber {
 			if (i % 2 != 0) {
 
 				System.out.println("Odd Numbers: " + i);
-			}
-			else {
-				System.out.println("EVEN Number found ");
+			} else {
+				System.out.println("EVEN Number found: " + i);
 			}
 		}
 	}
