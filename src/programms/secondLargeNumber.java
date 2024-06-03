@@ -20,10 +20,8 @@ public class secondLargeNumber {
 		Scanner scn = new Scanner(System.in);
 		System.out.println("Input Your Value..!");
 		int input = scn.nextInt();
-
 		int no = num[num.length - input];
 
 		System.out.println(no);
 	}
-
 }
