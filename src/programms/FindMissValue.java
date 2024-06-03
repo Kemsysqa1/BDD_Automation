@@ -4,20 +4,18 @@ public class FindMissValue {
 
 	public static void main(String[] args) {
 		char[] charArr = { '1', '2', '3', '5' };
-		int index = charArr[0];
-		char ch = 0;
-		char output = 0;
-		for (int i = 0; i < charArr.length; i++) {
-			ch = (char) index;
+		char expectedChar = charArr[0];
+		char missingChar = 0;
 
-			if (charArr[i] != index) {
-				output = ch;
+		for (int i = 0; i < charArr.length; i++) {
+			if (charArr[i] != expectedChar) {
+				missingChar = expectedChar;
 				break;
 			}
-
-			index++;
+			expectedChar++;
 		}
-		System.out.println("Missing Value Is: " + output);
+
+		System.out.println("Missing Value Is: " + missingChar);
 	}
 
 }
