@@ -6,6 +6,7 @@ public class StringPalindrom {
 		String name = "TeT";
 		String temp = name;
 		String revStr = "";
+		
 		for (int i = name.length() - 1; i >= 0; i--) {
 			char ch = name.charAt(i);
 			revStr += ch;
