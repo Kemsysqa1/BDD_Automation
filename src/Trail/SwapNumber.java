@@ -10,7 +10,5 @@ public class SwapNumber {
 
 		System.out.println("a = " + a);
 		System.out.println("b = " + b);
-
 	}
-
 }
