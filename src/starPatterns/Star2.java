@@ -11,5 +11,4 @@ public class Star2 {
 			System.out.println();
 		}
 	}
-
 }
