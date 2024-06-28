@@ -9,9 +9,7 @@ public class FlightMatch {
 		for (int i = 0; i < source.length; i++) {
 			for (int j = i; j < destination.length; j++) {
 				System.out.println(source[i] + "" + destination[j]);
-
 			}
 		}
 	}
-
 }
