@@ -3,15 +3,15 @@ package starPatterns;
 public class Number1 {
 
 	public static void main(String[] args) {
-		int num = 7;
-		int count = 0;
-		for (int i = 1; i <= num; i++) {
-			count = i;
-			for (int j = i; j >= num; j++) {
+		int n = 7;
+
+		for (int i = 1; i < n; i++) {
+			int count = i;
+
+			for (int j = 1; j <= count; j++) {
 				System.out.print(i);
 			}
 			System.out.println();
 		}
 	}
-
 }
