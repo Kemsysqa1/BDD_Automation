@@ -3,11 +3,18 @@ package prog1;
 public class PrimeNumber {
 
 	public static void main(String[] args) {
-		for (int i = 2; i <= 100; i++) {
+		int count = 0;
+		int counter = 0;
+		int i = 2;
+		while (counter < 100) {
 			if (primeNumber(i)) {
-				System.out.println(i);
+				count += i;
+				counter++;
+
 			}
+			i++;
 		}
+		System.out.println(count);
 	}
 
 	public static boolean primeNumber(int no) {
