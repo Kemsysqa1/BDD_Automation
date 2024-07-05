@@ -1,6 +1,6 @@
 package prog1;
 
-public class PrimeNumber {
+public  class PrimeNumber {
 
 	public static void main(String[] args) {
 		int count = 0;
