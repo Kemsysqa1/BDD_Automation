@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author BAPS
- *
- */
-module TestProject {
-}

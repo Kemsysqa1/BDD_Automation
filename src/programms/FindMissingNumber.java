@@ -7,6 +7,7 @@ public class FindMissingNumber {
 	public static void main(String[] args) {
 		int[] num = { 5, 2, 98, 50, 16 };
 		int lastNum = 0;
+
 		for (int i = 0; i < num.length; i++) {
 			for (int j = i + 1; j < num.length; j++) {
 				if (num[i] > num[j]) {
@@ -15,10 +16,12 @@ public class FindMissingNumber {
 					num[i] = temp;
 				}
 			}
-
 		}
+
 		lastNum = num[num.length - 1];
+
 		List<Integer> list = new ArrayList<>();
+
 		for (int k = num[0]; k < lastNum; k++) {
 			for (int i = 0; i < num.length; i++) {
 				if ((num[i] < k) && (num[i + 1] > k)) {
@@ -26,8 +29,6 @@ public class FindMissingNumber {
 				}
 			}
 		}
-
 		System.out.println(list);
 	}
-
 }
