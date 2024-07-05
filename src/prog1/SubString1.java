@@ -12,13 +12,11 @@ public class SubString1 {
 			}
 
 			for (int j = 0; j <= i; j++) {
-
 				if (newStr.charAt(j) == 'm') {
 					newStr = str;
 				}
 				System.out.print(newStr.charAt(j));
 			}
-
 			System.out.println();
 		}
 	}
