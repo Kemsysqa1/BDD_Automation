@@ -16,7 +16,6 @@ public class BasicPart1_66 {
 			i++;
 		}
 		System.out.println(result);
-
 	}
 
 	public static boolean primeNumber(int no) {
@@ -27,5 +26,4 @@ public class BasicPart1_66 {
 		}
 		return true;
 	}
-
 }
