@@ -3,7 +3,7 @@ package Trail;
 public class ArrayLastIndexValue {
 
 	public static void main(String[] args) {
-		int[] num = { 505 };
+		int[] num = { 1, 2, 3 };
 		array(num);
 	}
 
@@ -21,23 +21,25 @@ public class ArrayLastIndexValue {
 				counter = counter / 10;
 				count++;
 			}
+
 		}
 
 		int[] no = new int[count];
+
 		for (int i = 0; i < no.length; i++) {
+
 			if (num.length == 1) {
 				int rem = lastValue % 10;
 				no[i] = rem;
 				lastValue = lastValue / 10;
 			} else {
 				if (num.length - 1 == i) {
-					lastValue = num[i];
-					lastValue++;
 					no[i] = lastValue;
 				} else {
 					no[i] = num[i];
 				}
 			}
+
 		}
 
 		for (int j = no.length - 1; j >= 0; j--) {
